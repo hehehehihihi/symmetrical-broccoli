@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #1a9245;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.header img {
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+text-align: center;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #1a9245;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #1a9245;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+ p {
+    text-align: center;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 8px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.footer {
+  background-color: #1a9245;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+  .footer p {
+    text-align: center;
+  }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="https://i.imgur.com/hb3TNfx.png" width="100px"></h1>
+</div>
+
+<div class="picture">
+  <img src="https://i.imgur.com/YZSAfgg.png" width="100%">
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Product</a></li>
+    </ul>
+<div class="picture">
+  <img src="https://i.imgur.com/I1l1jaS.png" width="100%">
+</div>
+</div>
+</div>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/7vI4R1x.png" alt="Chicken Inasal Regular Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Chicken Inasal Regular Family Size</b></p>
+      <p style="color: #000000;">Ihaw-Sarap marinated chicken, <br> expertly grilled to perfection</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/ASLjzeW.png" alt="Paa Large Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Paa Large Family Size</b></p>
+      <p style="color: #000000;">4 pieces Ihaw-Sarap marinated chicken quarters (Paa) <br> expertly grilled to perfection.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/YyeHg9s.png" alt="Pecho Large Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Pecho Large Family Size</b></p>
+      <p style="color: #000000;">4 pieces Ihaw-Sarap marinated chicken quarters (Pecho) <br> expertly grilled to perfection.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/fEVB5gi.png" alt="Grilled Liempo Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Grilled Liempo Family Size</b></p>
+      <p style="color: #000000;">4 Grilled marinated pork belly, <br> salty and sour with right <br> blend of spices</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/oZbviai.png" alt="Bangus Sisig Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Bangus Sisig Family Size</b></p>
+      <p style="color: #000000;">Scrumptious bangus chunks. <br> Good for 3 to 4 people</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/u2BvsHB.png" alt="Pork Sisig Family Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Pork Sisig Family Size</b></p>
+      <p style="color: #000000;">A mouth-watering grilled and sautéed <br> meaty dish with special dressing, <br> chicharon, diced onion, sliced red <br> & finger chili. Good for <br> 3 to 4 people</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+<tr>
+    <td>
+<img src="https://i.imgur.com/L3OlXRX.png" alt="Paa Large - PM1"  width="200" height="150">
+   <p style="color: #1a9245;"><b>Paa Large - PM1</b></p>
+      <p style="color: #000000;">Ihaw-Sarap marinated chicken quarters. <br> Expertly grilled the Mang Inasal <br> way served with a cup of rice.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/t8ZidbE.png" alt="Pecho Large - PM2" width="200" height="150">
+      <p style="color: #1a9245;"><b>Pecho Large - PM2</b></p>
+      <p style="color: #000000;">Ihaw-Sarap marinated chicken quarters. <br> Expertly grilled the Mang Inasal <br> way served with a cup of rice.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/YSuUWnl.png" alt="Todo Solb Paa Large" width="200" height="150">
+      <p style="color: #1a9245;"><b>Todo Solb Paa Large</b></p>
+      <p style="color: #000000;">Hearty combination of delicious <br> Mang Inasal favorites – Expertly grilled <br> Chicken Inasal Large with rice, <br> flavorful & sauce half Palabok and soup</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+<tr>
+    <td>
+<img src="https://i.imgur.com/8g8vZd2.png" alt="Todo Solb Pecho Large"  width="200" height="150">
+   <p style="color: #1a9245;"><b>Todo Solb Pecho Large</b></p>
+      <p style="color: #000000;">Hearty combination of delicious <br> Mang Inasal favorites – expertly grilled <br> Chicken Inasal Large with rice, <br> flavorful & sauce half Palabok and soup</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/rYLS0o2.png" alt="Chicken Inasal Regular" width="200" height="150">
+      <p style="color: #1a9245;"><b>Chicken Inasal Regular</b></p>
+      <p style="color: #000000;">Ihaw-Sarap 1-piece Chicken Inasal. <br> Expertly grilled the Mang Inasal <br> way served with a cup of rice.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/sRsag9H.png" alt="Fiesta Meal" width="200" height="150">
+      <p style="color: #1a9245;"><b>Fiesta Meal</b></p>
+      <p style="color: #000000;">Ihaw-Sarap marinated chicken quarters. <br> Expertly grilled the Mang Inasal <br> way and served with three (3) Rice, <br> three (3) Chicken Oil Sachets, <br> two (2) Toyomansi Sachets, and Soup</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+<tr>
+    <td>
+<img src="https://i.imgur.com/nUZMPqL.png" alt="Palabok with Chicken Inasal Regular"  width="200" height="150">
+   <p style="color: #1a9245;"><b>Palabok with Chicken Inasal Regular</b></p>
+      <p style="color: #000000;">Palabok Solo with Chicken Inasal Regular, <br> choice of chicken part may be <br> subject to availability</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/NmE8gd2.png" alt="Palabok with 1-pc Pork BBQ" width="200" height="150">
+      <p style="color: #1a9245;"><b>Palabok with 1-pc Pork BBQ</b></p>
+      <p style="color: #000000;">Palabok Solo with 1-pc Pork BBQ</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/9AC8Tl7.png" alt="Palabok Party Size" width="200" height="150">
+      <p style="color: #1a9245;"><b>Palabok Party Size</b></p>
+      <p style="color: #000000;">Noodles in thick rich sauce seasoned <br> with chopped spring onions, hard-boiled egg slices, <br> shrimp, chicharon bits, meaty pork <br> and tinapa. Good for 10.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+<tr>
+    <td>
+<img src="https://i.imgur.com/tFTWRIU.jpeg" alt="Extra Creamy Halo-Halo"  width="200" height="150">
+   <p style="color: #1a9245;"><b>Extra Creamy Halo-Halo</b></p>
+      <p style="color: #000000;">Delicious and creamy shaved ice milk <br> concoction topped with red sago, <br> buko pandan jelly, langka, <br> ube halaya, yellow beans, <br> red mongo beans, leche flan, macapuno, <br> banana and ube ice cream.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/K8lsv6A.png" alt="Crema de Leche Halo-Halo" width="200" height="150">
+      <p style="color: #1a9245;"><b>Crema de Leche Halo-Halo</b></p>
+      <p style="color: #000000;">A delightful, creamy concoction of milk and ice, <br> topped with caramelized banana, <br> macapuno and leche flan.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+    <td>
+      <img src="https://i.imgur.com/bT72d07.png" alt="Chicken Empanada" width="200" height="150">
+      <p style="color: #1a9245;"><b>Chicken Empanada</b></p>
+      <p style="color: #000000;">Pastry filled with sweet and savory filling: <br> chicken chunks, potatoes and raisins.</p>
+      <button style="background-color: #1a9245; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Order Now</button>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+

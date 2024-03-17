@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #1a9245;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.header img {
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+text-align: center;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #1a9245;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.promo-image {
+  width: 200px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Adjust spacing between images */
+}
+
+.aside {
+  background-color: #1a9245;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #1a9245;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="https://i.imgur.com/hb3TNfx.png" width="100px"></h1>
+</div>
+
+<div class="picture">
+  <img src="https://i.imgur.com/IbcfBVN.png" width="100%">
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Product</a></li>
+    </ul>
+
+</div>
+  <div class="col-6 col-s-9">
+    <h1 style="color:#339752;">Welcome to Mang Inasal!</h1>
+    <p>Mang Inasal is renowned as the Grill Expert in the Philippines, offering delightful Ihaw-Sarap cuisine and an unlimited source of joyous experiences.</p>
+ </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Promos</h2>
+<td align="center">
+<img src="https://i.imgur.com/zOh9DeK.png" width="550px">
+</td>
+<td align="center">
+<img src="https://i.imgur.com/J0gSkzZ.png" width="550px">
+</td>
+      <p>These deals and discounts are waiting for you!</p>
+      <h2>News</h2>
+<td align="center">
+<img src="https://i.imgur.com/x11ZONZ.png" width="100%">
+</td>
+<h3>Craving for Lumpiang Togue? Mang Inasal offers it for only ₱29!</h3>
+      <p>Mang Inasal, launched its new Lumpiang Togue at all its stores in Luzon.</p>
+<p>Discover the latest updates here!</p>
+      <h2>Order Now!</h2>
+ <img src="https://i.imgur.com/YtQiCv2.png" width="110px">
+      <p>Get exclusive offers by downloading our app now!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>All Rights Reserved by Finals Mang Inasal Philippines, Inc. 2024.</p>
+</div>
+</body>
+</html>
